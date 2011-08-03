@@ -1,0 +1,68 @@
+// Example Stylus file
+// All changes are detected and automatically compiled into CSS
+
+@import 'helpers'
+@import 'chat'
+@import 'landing'
+
+lato = 'Lato', arial, serif;
+swanky = 'Swanky and Moo Moo', arial, serif;
+
+// Main
+body
+	background url('/images/bg.png')
+	font-family lato
+	position relative
+
+#header
+	position relative
+	height 80px
+
+#brand-wrapper
+	margin-top 60px
+	
+#brand
+	position relative
+
+.section-wrapper
+	width 978px
+	margin 0 auto
+
+#api-wrapper
+	display none
+
+#logo
+	background url('/images/qt-logo.png') no-repeat
+	width 282px
+	height 83px
+
+#nav-wrapper
+	position absolute
+	font-size 18px
+	font-weight 300
+	right 0px
+	top 24px
+	color #f0f9fb
+
+#nav li
+	float left
+	padding 10px 18px
+	round 10px
+	
+#nav li:hover
+	cursor pointer
+	text-decoration underline
+	
+#nav li.selected
+	margin-left 30px
+	float left
+	background #1e2d32
+	box-shadow 0 1px 0 rgba(255,255,255,0.13)
+	inset 0 1px 0 rgba(0,0,0,0.4)
+
+.clear
+	clear both
+	
+#main-wrapper
+	width 960px
+	margin 0 auto

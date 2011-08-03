@@ -1,0 +1,183 @@
+#link-input-wrapper {
+  float: left;
+  width: 466px;
+  height: 86px;
+  border: none;
+  background: url("/images/input-box.png") no-repeat;
+  color: #bbb;
+  font-size: 28px;
+  font-style: italic;
+  padding: 0px;
+}
+#landing-wrapper {
+  position: absolute;
+  width: 100%;
+  top: 200px;
+  display: none;
+}
+#landing {
+  position: relative;
+  width: 100%;
+}
+#tiles {
+  background: url("/images/cam-tile.jpg");
+  packground-position: top-left;
+  height: 350px;
+  width: 100%;
+}
+#links-wrapper {
+  width: 810px;
+  height: 300px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+#copied-wrapper {
+  margin: 0 auto;
+  width: 700px;
+  padding-top: 86px;
+  display: none;
+}
+#copied {
+  background: #fff;
+  width: 100%;
+  font-size: 22px;
+  font-weight: 300;
+  color: #666;
+  padding: 30px;
+}
+#success-url {
+  margin: 0 auto;
+  background: #e5e5e5;
+  font-size: 32px;
+  font-style: italic;
+  padding: 20px;
+}
+#success-box span {
+  margin-bottom: 20px;
+}
+#success-box span {
+  color: #7da714;
+  font-weight: bold;
+}
+#link-input {
+  margin-top: 28px;
+  margin-left: 16px;
+  font-weight: 100;
+}
+#input-box {
+  position: relative;
+}
+#copy-join-button {
+  float: left;
+  display: block;
+  height: 86px;
+  width: 182px;
+  text-indent: -9999px;
+  background: url("/images/submit-btn.png") no-repeat;
+}
+#copy-join-button:hover,
+#copy-join-button.hover {
+  background-position: 0px -86px;
+  cursor: pointer;
+}
+#copy-join-button:active,
+#copy-join-button.active {
+  background-position: 0px -172px;
+}
+#copy-join-button.started {
+  background-position: 0px -258px;
+}
+#share-link-wrapper {
+  margin-left: 84px;
+}
+#share-link p {
+  font-weight: 300;
+  font-size: 24px;
+  color: #fff;
+  padding-left: 4px;
+  padding-bottom: 12px;
+}
+#share-link span {
+  color: #97c524;
+  font-family: lato;
+  font-style: italic;
+  font-weight: 100;
+  font-size: 24px;
+  float: left;
+  margin-top: 28px;
+  margin-left: 15px;
+}
+#description-wrapper {
+  margin-top: 44px;
+}
+#tagline {
+  color: #e89e0f;
+  font-size: 24px;
+  width: 310px;
+  line-height: 1.2em;
+}
+#just-copy-wrapper {
+  clear: both;
+  color: #fff;
+  font-weight: 300;
+  text-shadow: 0 -1px 0 #000;
+  padding-top: 10px;
+  padding-right: 40px;
+  text-align: right;
+}
+#just-copy-button {
+  color: #79c4f2;
+}
+#just-copy-button:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+#features {
+  margin-top: 10px;
+  font-size: 20px;
+  list-style-type: disc;
+}
+#features li {
+  color: #61818c;
+  margin-left: 24px;
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+#features li span {
+  font-size: 18px;
+  font-weight: 300;
+  color: #f0f9fb;
+}
+#footer-wrapper {
+  position: relative;
+  clear: both;
+  height: 20px;
+  margin-top: -40px;
+}
+#footer p {
+  padding-top: 3px;
+  font-weight: 300;
+  padding-right: 2px;
+  float: right;
+  color: #f0f9fb;
+  font-size: 14px;
+}
+#footer img {
+  float: right;
+}
+#help-wrapper {
+  position: relative;
+  display: none;
+}
+#help {
+  position: absolute;
+  z-index: 30;
+  top: 150px;
+  right: -50px;
+  font-size: 1.2em;
+}
+#arrow {
+  width: 131px;
+  height: 200px;
+  background: url("/images/arrow.png");
+}

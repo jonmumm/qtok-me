@@ -1,0 +1,69 @@
+script(src="/javascripts/hash.js")
+script(src="/javascripts/landing.js")
+#help-wrapper.section-wrapper
+  #help Press the button, silly.
+    #arrow
+#header-wrapper.section-wrapper
+  #header
+    #brand-wrapper
+      #brand
+        div#logo
+    #nav-wrapper
+      ul#nav
+        li#videochat-link.selected Video Chat
+        li#api-link API
+        li#help-link Help
+#landing-wrapper
+  #landing
+    #tiles
+      #links-wrapper
+        #links
+          #share-link-wrapper
+            #share-link
+              p Your video chat URL
+              #input-box
+                #link-input-wrapper
+                  #link-input
+                a#copy-join-button Copy & Join
+                span free              
+          #just-copy-wrapper
+            #just-copy or 
+              a#just-copy-button just copy
+              | , I'll start it later
+      #copied-wrapper
+        #copied
+          #success-box
+            span Success! 
+            | Video chat URL copied and reserved.
+          #success-url 
+           span
+    #description-wrapper.section-wrapper
+      #description
+        p#tagline QuickTok is a free, instant, sharable, video chat service.
+        ul#features
+          li 
+            span No download
+          li 
+            span No signup
+          li 
+            span Silly simple
+          li 
+            span It's completely free!
+    #footer-wrapper.section-wrapper
+      #footer
+        img(src='/images/tb-logo.png')
+        p brought to you by
+    #api-wrapper.section-wrapper
+      div
+        p This functions creates a unique hash that can be used to reserve a new chatroom.
+        p You can call this function to generate a short unique url and hash that can be used to reserve a quicktok video conversation.
+        p Calling this function will only generate the unique hash and the url where you can find this chat. However it will not reserve the video conference yet.
+        p Example usage:
+        p curl http://qtok.me/api/quicktok/new
+        p Response:
+        p
+          | {
+          |    "url": "http://qtok.me/ETH9d",
+          |    "hash":"ETH9d",
+          |    "status": "OK"
+          |  }
