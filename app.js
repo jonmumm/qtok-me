@@ -122,7 +122,9 @@ app.get('/:hash', function(req, res) {
   })
 });
 
-app.listen(3000);
+var port = process.env.port || 3000;
+
+app.listen(port);
 console.log("Express server listening on port %d", app.address().port);
 
 
