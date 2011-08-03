@@ -9,10 +9,12 @@ $(document).ready(function() {
   $("#header-wrapper").fadeIn('fast');
   $("#landing-wrapper").fadeIn('fast');
   
+	/*
   $("#api-link").click(function() {
 	  $("#landing-wrapper").hide('fast');
     $("#api-wrapper").show('fast');
 	});
+	*/
     
   $("#videochat-link").click(function() {
     $("#api-wrapper").hide('fast');
